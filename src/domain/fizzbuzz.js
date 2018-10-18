@@ -11,6 +11,6 @@ export class FizzBuzz {
             [NORMAL_NUMBER, () => input.toString()]
         ];
 
-        return resource.find(r => input % r[0] === 0)[1]();
+        return resource.find(divisor => input % divisor[0] === 0)[1]();
     }
 }
