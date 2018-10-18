@@ -1,13 +1,16 @@
 export class FizzBuzz {
     print(input) {
-        if (input % 15 === 0) {
-            return 'FizzBuzz';
-        } else if (input % 3 === 0) {
-            return 'Fizz';
-        } else if (input % 5 === 0) {
-            return 'Buzz';
-        }
+        const TIMES_OF_15 = 15;
+        const TIMES_OF_5 = 5;
+        const TIMES_OF_3 = 3;
+        const NORMAL_NUMBER = 1;
+        const resource = [
+            [TIMES_OF_15, () => 'FizzBuzz'],
+            [TIMES_OF_5, () => 'Buzz'],
+            [TIMES_OF_3, () => 'Fizz'],
+            [NORMAL_NUMBER, () => input.toString()]
+        ];
 
-        return input.toString();
+        return resource.find(r => input % r[0] === 0)[1]();
     }
 }
