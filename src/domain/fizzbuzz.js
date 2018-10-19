@@ -1,5 +1,5 @@
 export class FizzBuzz {
-    print(data) {
-        return data;
+    print(input) {
+        return input.toString();
     }
 }
