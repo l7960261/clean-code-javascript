@@ -8,7 +8,7 @@ describe('fizzbuzz', () => {
         instance = new FizzBuzz();
     });
 
-    it('pass 1 should print 1', () => {
+    it('pass any normal number should print input number', () => {
         expect(instance.print(1)).toBe('1');
         expect(instance.print(2)).toBe('2');
     });
