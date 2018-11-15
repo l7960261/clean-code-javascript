@@ -1,5 +1,5 @@
 {
-  "name": "fizzbuzz",
+  "name": "clean-code-classic",
   "version": "1.0.0",
   "description": "Test with jest",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/l7960261/fizzbuzz.git"
+    "url": "git+https://github.com/l7960261/clean-code-classic.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/l7960261/fizzbuzz/issues"
+    "url": "https://github.com/l7960261/clean-code-classic/issues"
   },
-  "homepage": "https://github.com/l7960261/fizzbuzz#readme",
+  "homepage": "https://github.com/l7960261/clean-code-classic#readme",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
