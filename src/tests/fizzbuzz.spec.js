@@ -1,6 +1,6 @@
 import {
   FizzBuzz
-} from "../domain/fizzbuzz";
+} from "../domains/fizzbuzz";
 
 describe('fizzbuzz', () => {
   let instance;

@@ -1,6 +1,6 @@
 import {
     Inspect
-} from "../domain/inspect";
+} from "../domains/inspect";
 
 describe('Inspect', () => {
     let instance;
