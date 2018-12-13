@@ -32,4 +32,16 @@ export class Tutorial {
 
     return result;
   }
+
+  removeFalsyValues(data) {
+    let result = [];
+
+    for (let index = 0; index < data.length; index++) {
+      if(!!data[index]){
+        result.push(data[index]);
+      }      
+    }
+
+    return result;
+  }
 }

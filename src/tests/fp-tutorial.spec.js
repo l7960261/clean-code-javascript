@@ -28,10 +28,17 @@ describe('Functional Programming Tutorial', () => {
     expect(result).toEqual(["dog1", "dog2"]);
   });
 
-  it('Call getUniqueValuesOfSamePrefix then return ["prefix_1", "prefix_2", "prefix_3"]', () => { 
+  it('Call getUniqueValuesOfSamePrefix then return ["prefix_1", "prefix_2", "prefix_3"]', () => {
     const result = instance.getUniqueValuesOfSamePrefix();
 
     expect(result.length).toBe(3);
     expect(result).toEqual(["prefix_1", "prefix_2", "prefix_3"]);
+  });
+
+  it('Call removeFalsyValues then return ["dog1", "dog2"]', () => {
+    const data = [0, 1, false, 2, '', 3];
+    const result = instance.removeFalsyValues(data);
+    expect(result.length).toBe(3);
+    expect(result).toEqual([1, 2, 3]);
   });
 });
