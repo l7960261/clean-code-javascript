@@ -1,3 +1,5 @@
+import times from 'lodash/times';
+
 export class Tutorial {
 
   Loop5Times() {
