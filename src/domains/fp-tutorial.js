@@ -1,4 +1,5 @@
 import times from 'lodash/times';
+import map from 'lodash/map';
 
 export class Tutorial {
 
@@ -14,8 +15,9 @@ export class Tutorial {
   deeplyProp(data) {
     let result = []
 
-    result.push("dog1");
-    result.push("dog2");
+    for (var i = 0; i < data.length; i++) {
+      result.push(data[i].pets[0].name);
+    }
 
     return result;
   }

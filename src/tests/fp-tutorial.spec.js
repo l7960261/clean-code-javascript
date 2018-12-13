@@ -18,10 +18,10 @@ describe('Functional Programming Tutorial', () => {
   it('Call deeplyProp then return ["dog1", "dog2"]', () => {
     const data = [{
       "owner": "Colin",
-      "pets": [{ "name": "dog1" }, { "name": "dog2" }]
+      "pets": [{ "name": "dog1" }, { "name": "cat1" }]
     }, {
       "owner": "John",
-      "pets": [{ "name": "dog3" }, { "name": "dog4" }]
+      "pets": [{ "name": "dog2" }, { "name": "cat2" }]
     }];
     const result = instance.deeplyProp(data);
     expect(result.length).toBe(2);
