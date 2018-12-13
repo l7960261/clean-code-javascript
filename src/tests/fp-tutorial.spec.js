@@ -27,4 +27,11 @@ describe('Functional Programming Tutorial', () => {
     expect(result.length).toBe(2);
     expect(result).toEqual(["dog1", "dog2"]);
   });
+
+  it('Call getUniqueValuesOfSamePrefix then return ["prefix_1", "prefix_2", "prefix_3"]', () => { 
+    const result = instance.getUniqueValuesOfSamePrefix();
+
+    expect(result.length).toBe(3);
+    expect(result).toEqual(["prefix_1", "prefix_2", "prefix_3"]);
+  });
 });
