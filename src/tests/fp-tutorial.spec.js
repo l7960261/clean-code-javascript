@@ -41,4 +41,13 @@ describe('Functional Programming Tutorial', () => {
     expect(result.length).toBe(3);
     expect(result).toEqual([1, 2, 3]);
   });
+
+  it('Call executeTask123 get ["task1", "task2", "task3"]', () => {
+    return instance.executeTask123()
+      .then(value => expect(value).toEqual(["task1", "task2", "task3"]))
+  });
+
+  it('Call sequenceTask123 get ["task1", "task2", "task3"]', () => {
+    //TODO: how to prove 
+  });
 });
