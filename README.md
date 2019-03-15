@@ -15,3 +15,7 @@
 ### inspect.js and inspect.spec.js
 
 - refactory
+
+### store.js and store.spec.js
+
+- please implement business logic to pass all tests
