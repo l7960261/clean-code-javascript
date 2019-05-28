@@ -1,5 +1,5 @@
 {
-  "name": "clean-code-classic",
+  "name": "clean-code-javascript",
   "version": "1.0.0",
   "description": "Test with jest",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/l7960261/clean-code-classic.git"
+    "url": "git+https://github.com/l7960261/clean-code-javascript.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/l7960261/clean-code-classic/issues"
+    "url": "https://github.com/l7960261/clean-code-javascript/issues"
   },
-  "homepage": "https://github.com/l7960261/clean-code-classic#readme",
+  "homepage": "https://github.com/l7960261/clean-code-javascript#readme",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",

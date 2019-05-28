@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/l7960261/clean-code-classic.svg?branch=master)](https://travis-ci.com/l7960261/clean-code-classic) [![Dependency Status](https://david-dm.org/l7960261/clean-code-classic.svg)](https://david-dm.org/l7960261/clean-code-classic) [![devDependency Status](https://david-dm.org/l7960261/clean-code-classic/dev-status.svg)](https://david-dm.org/l7960261/clean-code-classic?type=dev)
+[![Build Status](https://travis-ci.com/l7960261/clean-code-javascript.svg?branch=master)](https://travis-ci.com/l7960261/clean-code-javascript) [![Dependency Status](https://david-dm.org/l7960261/clean-code-javascript.svg)](https://david-dm.org/l7960261/clean-code-javascript) [![devDependency Status](https://david-dm.org/l7960261/clean-code-javascript/dev-status.svg)](https://david-dm.org/l7960261/clean-code-javascript?type=dev)
 
 ### Install and test
 
