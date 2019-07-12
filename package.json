@@ -17,14 +17,14 @@
   },
   "homepage": "https://github.com/l7960261/clean-code-javascript#readme",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.6.0",
-    "jest": "^23.6.0"
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
   },
   "dependencies": {
-    "dayjs": "^1.8.10",
-    "lodash": "^4.17.11"
+    "dayjs": "^1.8.15",
+    "lodash": "^4.17.14"
   }
 }
